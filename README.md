@@ -84,3 +84,40 @@ Flipkart
 ├── FailedScreenshots
 ├── pom.xml
 └── testng.xml
+
+
+
+
+
+
+
+
+
+
+
+
+TestNG Test Classes
+        |
+        v
+    BaseTest
+        |
+        +----------------+
+        |                |
+        v                v
+   Excel Test Data    WebDriver
+        |                |
+        v                v
+ FileReadExcel      Page Objects
+        |                |
+        v                v
+ExecutionRequired   Selenium
+        |                |
+        +-------+--------+
+                |
+                v
+            Assertions
+                |
+        +-------+--------+
+        |                |
+        v                v
+ ExtentReports      Screenshots
